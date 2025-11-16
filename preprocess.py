@@ -117,6 +117,9 @@ class ConvolutionalFeatureExtractor:
 # RUN TEST
 # ----------------------------------------------------------
 if __name__ == "__main__":
-    base_dir = "E:/@IIT_BBS/@Sem 1/ML/Final Project/Safety-Analysis/Dataset/Train_Images"
+    base_dir = "E:/@IIT_BBS/@Sem 1/ML/Final Project/Safety-Analysis/P2"
     extractor = ConvolutionalFeatureExtractor()
+    
+    # batch_features = ConvolutionalFeatureExtractor.batch_CFE(batch_size=20,base_dir=base_dir,greyscale=False, kernel_size=3, target_size=5)
+    # batch_features.shape
     print(extractor)
