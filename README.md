@@ -95,17 +95,17 @@ Safety-Analysis/
 ---
 
 ## 👩‍💻 Contributors
-- **Sapna Vishwakarma**  
-  M.Tech, Computer Science and Engineering  
+- **Uppara Kadiyala Nitin Krishna**  
+  Ph.D, Computer Science and Engineering  
   *Indian Institute of Technology Bhubaneswar*
-- **Sapna Vishwakarma**  
-  M.Tech, Computer Science and Engineering  
+- **Sagnik Kayal**  
+  M.Tech, Artificial Intelligence  
   *Indian Institute of Technology Bhubaneswar*
-- **Sapna Vishwakarma**  
-  M.Tech, Computer Science and Engineering  
+- **Chelluboina Raj Pavan**  
+  M.Tech, Robotics and Artificial Intelligence  
   *Indian Institute of Technology Bhubaneswar*
-- **Sapna Vishwakarma**  
-  M.Tech, Computer Science and Engineering  
+- **Krutarth Jankat**  
+  B.Tech, Electrical Engineering  
   *Indian Institute of Technology Bhubaneswar*
 
 ---
