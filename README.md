@@ -41,11 +41,14 @@ This combined representation captures both **visual** and **semantic** safety cu
 ### 5. **Model Training**
 Multiple machine learning models were trained and compared to identify the most effective classifier for road safety prediction.  
 Typical models explored include:
-- Logistic Regression  
+- Logistic Regression
+- QDA
+- Naive Bayes
+- KNN Classifier
+- Decison Trees 
 - Random Forest  
 - Support Vector Machine (SVM)  
 - Gradient Boosting  
-- Neural Networks  
 
 The final output predicts whether a given street environment is **Safe**, **Risky**, or **Dangerous**.
 
