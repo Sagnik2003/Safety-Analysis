@@ -6,4 +6,4 @@ Model,Accuracy,Precision,Recall,F1 Score,ROC-AUC
 'Decision Tree',0.86,0.87,0.86,0.87,0.9366
 'Random Forest',0.71,0.68,0.71,0.67,0.8933
 'SVM',0.72,0.69,0.72,0.68,0.800
-
+'QDA',
