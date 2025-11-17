@@ -1,7 +1,7 @@
 
-# 🛣️ Safety Analysis using Machine Learning
+# Safety Analysis using Machine Learning
 
-## 📘 Overview
+## Overview
 **Safety Analysis** is a machine learning-based system designed to evaluate the safety of roads based on street images.  
 This project is trained on images collected throughout the **IIT Bhubaneswar campus**, captured under diverse environmental and lighting conditions.
 
@@ -12,7 +12,7 @@ The system analyzes various visual and contextual features from street images �
 
 ---
 
-## 🧠 Approach
+## Approach
 
 ### 1. **Data Collection**
 Street images were captured across multiple campus locations at different times of the day and under varying weather conditions to ensure diversity.
@@ -23,7 +23,8 @@ We detected and manually labeled features such as:
 - Vehicles  
 - Lighting conditions  
 - Nearby monuments/infrastructure  
-- Time of day  
+- Time of day
+- Nearby Vegetation 
 
 These were annotated in a CSV file along with the safety class label.
 
@@ -54,7 +55,7 @@ The final output predicts whether a given street environment is **Safe**, **Risk
 
 ---
 
-## 🚀 Future Work
+## Future Work
 This system will be **scaled up** to handle large-scale datasets and generalized to analyze streets across **any city or region**.  
 Further improvements will include:
 - Deep feature extraction using CNNs  
@@ -63,26 +64,22 @@ Further improvements will include:
 
 ---
 
-## 🧩 Repository Structure
+## Repository Structure
 ```
 
 Safety-Analysis/
 │
-├── data/
-│   ├── images/                # Collected street images
-│   ├── labels.csv             # Manually labeled safety features
+├── Features
+│   ├── Contextual Features    
+│   ├── Image Features
 │
-├── notebooks/
-│   ├── preprocessing.ipynb    # Image preprocessing and feature extraction
-│   ├── training.ipynb         # Model training and evaluation
-│
-├── src/
-│   ├── feature_extraction.py  # Manual convolution + pooling operations
-│   ├── model_comparison.py    # ML model benchmarking
+├── Notebooks/
+│   ├── Scripts                # Image preprocessing and feature extraction
+│   ├── models.ipynb           # Various Models used
 │
 ├── results/
-│   ├── metrics.csv            # Model performance metrics
-│   ├── confusion_matrix.png   # Visualization of model results
+│   ├── evaluation_metrics.csv # Model performance metrics
+│   ├── confusion_matrix       # Visualization of model results
 │
 └── README.md
 
@@ -90,14 +87,14 @@ Safety-Analysis/
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - **Python** (NumPy, Pandas, Scikit-learn, OpenCV, Matplotlib)
 - **Jupyter Notebook**
 - **Manual Feature Engineering + Machine Learning Models**
 
 ---
 
-## 👩‍💻 Contributors
+## Contributors
 - **Uppara Kadiyala Nitin Krishna**  
   Ph.D, Computer Science and Engineering  
   *Indian Institute of Technology Bhubaneswar*
@@ -113,6 +110,6 @@ Safety-Analysis/
 
 ---
 
-## 🏁 Acknowledgment
+## Acknowledgment
 This project is part of the ML course project at **IIT Bhubaneswar**, aiming to create data-driven tools for improving **road and pedestrian safety** through intelligent visual analysis.
 ```
