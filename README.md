@@ -17,6 +17,8 @@ The system analyzes various visual and contextual features from street images â€
 ### 1. **Data Collection**
 Street images were captured across multiple campus locations at different times of the day and under varying weather conditions to ensure diversity.
 
+Our dataset is openly available on [kaggle/Road Safety Analysis - IIT Bhubaneswar](https://www.kaggle.com/datasets/sagnikkayalcse52/road-safety-analysis-iit-bhubaneswar)
+
 ### 2. **Feature Extraction**
 We detected and manually labeled features such as:
 - Human activities  
